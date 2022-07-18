@@ -3,5 +3,6 @@ terraform {
     bucket = "talent-academy-sudha-lab-tfstates"
     key = "talent-academy/backend/terraform.tfstates"
     region = "eu-west-1"
+    dynamodb_table = "terraform-lock"
   }
 }
